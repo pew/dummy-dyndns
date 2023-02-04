@@ -9,7 +9,7 @@ This project responds to each request with a `good` [return code](https://help.d
 - use whatever you want for the remaining entries
 
 ```
-https://<username>:<pass>@dummy-dyndns.avocado.workers.dev/v3/update?hostname=<domain>&myip=<dualstack>
+https://<username>:<pass>@dummy-dyndns.avocado.workers.dev/v3/update?hostname=<domain>&v4=<ipaddr>&v6=<ip6addr>
 ```
 
 - you're able to configure WireGuard now, enjoy
